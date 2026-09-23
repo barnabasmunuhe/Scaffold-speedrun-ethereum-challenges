@@ -1,23 +1,29 @@
-# dependencies
-node_modules
+# Node / Yarn
+**/node_modules/
+**/.yarn/cache/
+**/.yarn/install-state.gz
+**/.yarn/unplugged/
+**/.pnp.*
+**/yarn-error.log
 
-# yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+# Next.js
+**/.next/
+**/out/
 
-# eslint
-.eslintcache
+# Foundry build artifacts
+**/cache/
+**/broadcast/
+**/deployments/
+**/out/
 
-# misc
-.DS_Store
+# Env
+**/.env
+**/.env.local
+**/.env.*.local
 
-# IDE
-.vscode
-.idea
+# Vercel local link
+**/.vercel/
 
-# cli
-dist
+# OS / editor
+**/.DS_Store
+**/*.log
